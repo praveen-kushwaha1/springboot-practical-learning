@@ -1,21 +1,120 @@
-# Exception Handling - Answers
+# Exception Handling — Detailed Answers
 
 [← Back to Questions](question.md) | [Read Concepts](concept.md)
 
-## 1. What is an exception in Java?
+> These are answer-writing templates. Complete each section with accurate explanations, examples and trade-offs as you study.
 
-An exception is an event that interrupts the normal flow of program execution.
+## 1. What is an exception?
 
-### Example
+**Short answer**
 
-​```java
-public class ExceptionExample {
-    public static void main(String[] args) {
-        int result = 10 / 0;
-    }
-}
-​```
+Write a direct 2–4 sentence answer.
 
-### Interview Tip
+**Detailed explanation**
 
-Explain what happens at runtime and how exception handling prevents abnormal termination.
+- Define the key terms.
+- Explain the internal working or sequence.
+- Include a Java/Spring Boot/SQL example where relevant.
+- Mention important edge cases and trade-offs.
+
+**Example or diagram**
+
+Add a runnable code snippet, query, diagram or scenario.
+
+**Likely follow-up**
+
+Add one follow-up question and its answer.
+
+---
+
+## 2. Exception vs Error?
+
+**Short answer**
+
+Write a direct 2–4 sentence answer.
+
+**Detailed explanation**
+
+- Define the key terms.
+- Explain the internal working or sequence.
+- Include a Java/Spring Boot/SQL example where relevant.
+- Mention important edge cases and trade-offs.
+
+**Example or diagram**
+
+Add a runnable code snippet, query, diagram or scenario.
+
+**Likely follow-up**
+
+Add one follow-up question and its answer.
+
+---
+
+## 3. Checked vs unchecked exceptions?
+
+**Short answer**
+
+Write a direct 2–4 sentence answer.
+
+**Detailed explanation**
+
+- Define the key terms.
+- Explain the internal working or sequence.
+- Include a Java/Spring Boot/SQL example where relevant.
+- Mention important edge cases and trade-offs.
+
+**Example or diagram**
+
+Add a runnable code snippet, query, diagram or scenario.
+
+**Likely follow-up**
+
+Add one follow-up question and its answer.
+
+---
+
+## 4. throw vs throws?
+
+**Short answer**
+
+Write a direct 2–4 sentence answer.
+
+**Detailed explanation**
+
+- Define the key terms.
+- Explain the internal working or sequence.
+- Include a Java/Spring Boot/SQL example where relevant.
+- Mention important edge cases and trade-offs.
+
+**Example or diagram**
+
+Add a runnable code snippet, query, diagram or scenario.
+
+**Likely follow-up**
+
+Add one follow-up question and its answer.
+
+---
+
+## 5. How do try-with-resources and finally work?
+
+**Short answer**
+
+Write a direct 2–4 sentence answer.
+
+**Detailed explanation**
+
+- Define the key terms.
+- Explain the internal working or sequence.
+- Include a Java/Spring Boot/SQL example where relevant.
+- Mention important edge cases and trade-offs.
+
+**Example or diagram**
+
+Add a runnable code snippet, query, diagram or scenario.
+
+**Likely follow-up**
+
+Add one follow-up question and its answer.
+
+---
