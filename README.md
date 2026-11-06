@@ -23,7 +23,7 @@ From the repository root:
 mvn clean verify
 ```
 
-## Run a module
+## Run a module 
 ```bash
 mvn -pl spring-core spring-boot:run
 ```
