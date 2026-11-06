@@ -1,0 +1,8 @@
+# Add only the infrastructure required by the lesson you are running.
+services:
+  redis:
+    image: redis:7
+    ports: ["6379:6379"]
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports: ["5672:5672","15672:15672"]

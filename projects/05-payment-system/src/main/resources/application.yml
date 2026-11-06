@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: payment
+  datasource:
+    url: jdbc:h2:mem:payment;DB_CLOSE_DELAY=-1
+    username: sa
+    password: 
+  jpa:
+    hibernate:
+      ddl-auto: update
+server:
+  port: 0

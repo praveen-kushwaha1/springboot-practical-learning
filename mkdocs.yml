@@ -1,0 +1,124 @@
+site_name: Spring Boot Practical Learning
+site_description: A hands-on Java, Spring Boot and Microservices learning lab.
+site_author: Spring Boot Practical Learning
+site_url: https://praveen-kushwaha1.github.io/springboot-practical-learning/
+repo_name: praveen-kushwaha1/springboot-practical-learning
+repo_url: https://github.com/praveen-kushwaha1/springboot-practical-learning
+edit_uri: edit/main/docs/
+
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Learning Roadmap: 00-learning-roadmap.md
+      - Environment Setup: 01-environment-setup.md
+      - Run the Project: 02-how-to-run-project.md
+      - Progress Tracker: 03-learning-progress.md
+      - Coding Standards: 04-coding-standards.md
+  - Spring Fundamentals:
+      - Spring Core: spring-core/index.md
+      - Spring Boot Basics: spring-boot/index.md
+      - Spring MVC & REST: rest/index.md
+      - Data JPA & Hibernate: data/index.md
+      - Transactions: transactions/index.md
+  - Advanced Spring:
+      - Spring Security: security/index.md
+      - Advanced Spring: advanced/index.md
+      - Redis: redis/index.md
+      - WebFlux: webflux/index.md
+      - Messaging: messaging/index.md
+  - Microservices:
+      - Microservices: microservices/index.md
+      - Distributed Systems: distributed/index.md
+  - Quality & Operations:
+      - Testing: testing/index.md
+      - Observability: observability/index.md
+      - Troubleshooting: 06-troubleshooting.md
+  - Projects:
+      - Capstone Projects: projects/index.md
+  - Interview Preparation: 05-interview-preparation.md
+
+theme:
+  name: material
+  language: en
+  logo: assets/spring-icon.svg
+  favicon: assets/spring-icon.svg
+  features:
+    - announce.dismiss
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.action.edit
+    - content.action.view
+    - toc.follow
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search:
+      lang: en
+  - tags
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/extra.js
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/praveen-kushwaha1/springboot-practical-learning
+      name: GitHub repository
+
+copyright: Copyright &copy; 2026 Spring Boot Practical Learning

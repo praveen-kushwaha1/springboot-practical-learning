@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring-boot-basics
+server:
+  port: 0
+app:
+  info:
+    title: Spring Boot Practical Lab
+    level: beginner-to-advanced

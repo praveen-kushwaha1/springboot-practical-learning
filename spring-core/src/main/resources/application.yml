@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: spring-core
+server:
+  port: 0

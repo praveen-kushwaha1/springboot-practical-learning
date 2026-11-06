@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: spring-data-jpa-hibernate
+server:
+  port: 0

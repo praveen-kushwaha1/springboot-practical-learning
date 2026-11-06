@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: spring-mvc-rest
+server:
+  port: 8083
