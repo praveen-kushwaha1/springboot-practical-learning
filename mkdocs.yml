@@ -1,3 +1,4 @@
+
 site_name: Spring Boot Practical Learning
 site_description: A hands-on Java, Spring Boot and Microservices learning lab.
 site_author: Spring Boot Practical Learning
@@ -6,119 +7,227 @@ repo_name: praveen-kushwaha1/springboot-practical-learning
 repo_url: https://github.com/praveen-kushwaha1/springboot-practical-learning
 edit_uri: edit/main/docs/
 
-
 nav:
-  - Home: index.md
-  - Getting Started:
-      - Learning Roadmap: 00-learning-roadmap.md
-      - Environment Setup: 01-environment-setup.md
-      - Run the Project: 02-how-to-run-project.md
-      - Progress Tracker: 03-learning-progress.md
-      - Coding Standards: 04-coding-standards.md
-  - Spring Fundamentals:
-      - Spring Core: spring-core/index.md
-      - Spring Boot Basics: spring-boot/index.md
-      - Spring MVC & REST: rest/index.md
-      - Data JPA & Hibernate: data/index.md
-      - Transactions: transactions/index.md
-  - Advanced Spring:
-      - Spring Security: security/index.md
-      - Advanced Spring: advanced/index.md
-      - Redis: redis/index.md
-      - WebFlux: webflux/index.md
-      - Messaging: messaging/index.md
-  - Microservices:
-      - Microservices: microservices/index.md
-      - Distributed Systems: distributed/index.md
-  - Quality & Operations:
-      - Testing: testing/index.md
-      - Observability: observability/index.md
-      - Troubleshooting: 06-troubleshooting.md
-  - Projects:
-      - Capstone Projects: projects/index.md
-  - Interview Preparation: 05-interview-preparation.md
+    - Home: index.md
+
+    - Getting Started:
+          - Learning Roadmap: 00-learning-roadmap.md
+          - Environment Setup: 01-environment-setup.md
+          - Run the Project: 02-how-to-run-project.md
+          - Progress Tracker: 03-learning-progress.md
+          - Coding Standards: 04-coding-standards.md
+
+    - Spring Fundamentals:
+          - Spring Core: spring-core/index.md
+          - Spring Boot Basics: spring-boot/index.md
+          - Spring MVC & REST: rest/index.md
+          - Data JPA & Hibernate: data/index.md
+          - Transactions: transactions/index.md
+
+    - Advanced Spring:
+          - Spring Security: security/index.md
+          - Advanced Spring: advanced/index.md
+          - Redis: redis/index.md
+          - WebFlux: webflux/index.md
+          - Messaging: messaging/index.md
+
+    - Microservices:
+          - Microservices: microservices/index.md
+          - Distributed Systems: distributed/index.md
+
+    - Quality & Operations:
+          - Testing: testing/index.md
+          - Observability: observability/index.md
+          - Troubleshooting: 06-troubleshooting.md
+
+    - Projects:
+          - Capstone Projects: projects/index.md
+
+    - Interview Preparation:
+          - Overview: interview-prep/index.md
+
+          - Java:
+                - Category Overview: interview-prep/01-java/index.md
+                - Core Java:
+                      - Concepts: interview-prep/01-java/01-core-java/concept.md
+                      - Questions: interview-prep/01-java/01-core-java/question.md
+                      - Answers: interview-prep/01-java/01-core-java/answer.md
+                - OOPS:
+                      - Concepts: interview-prep/01-java/02-oops/concept.md
+                      - Questions: interview-prep/01-java/02-oops/question.md
+                      - Answers: interview-prep/01-java/02-oops/answer.md
+                - Collections:
+                      - Concepts: interview-prep/01-java/03-collections/concept.md
+                      - Questions: interview-prep/01-java/03-collections/question.md
+                      - Answers: interview-prep/01-java/03-collections/answer.md
+                - Exception Handling:
+                      - Concepts: interview-prep/01-java/04-exception-handling/concept.md
+                      - Questions: interview-prep/01-java/04-exception-handling/question.md
+                      - Answers: interview-prep/01-java/04-exception-handling/answer.md
+                - Multithreading:
+                      - Concepts: interview-prep/01-java/05-multithreading/concept.md
+                      - Questions: interview-prep/01-java/05-multithreading/question.md
+                      - Answers: interview-prep/01-java/05-multithreading/answer.md
+                - Java 8:
+                      - Concepts: interview-prep/01-java/06-java-8/concept.md
+                      - Questions: interview-prep/01-java/06-java-8/question.md
+                      - Answers: interview-prep/01-java/06-java-8/answer.md
+                - JVM and Memory:
+                      - Concepts: interview-prep/01-java/07-jvm-memory/concept.md
+                      - Questions: interview-prep/01-java/07-jvm-memory/question.md
+                      - Answers: interview-prep/01-java/07-jvm-memory/answer.md
+                - Generics and Reflection:
+                      - Concepts: interview-prep/01-java/08-generics/concept.md
+                      - Questions: interview-prep/01-java/08-generics/question.md
+                      - Answers: interview-prep/01-java/08-generics/answer.md
+
+          - Spring Framework and Spring Boot:
+                - Category Overview: interview-prep/02-spring/index.md
+                - Spring Core: interview-prep/02-spring/01-spring-core/concept.md
+                - Dependency Injection: interview-prep/02-spring/02-dependency-injection/concept.md
+                - Spring Boot: interview-prep/02-spring/03-spring-boot/concept.md
+                - Spring MVC and REST: interview-prep/02-spring/04-spring-mvc-rest/concept.md
+                - Spring Data JPA: interview-prep/02-spring/05-spring-data-jpa/concept.md
+                - Spring Security: interview-prep/02-spring/06-spring-security/concept.md
+                - Spring AOP: interview-prep/02-spring/07-spring-aop/concept.md
+                - Transactions: interview-prep/02-spring/08-spring-transactions/concept.md
+                - Testing: interview-prep/02-spring/09-spring-testing/concept.md
+                - Actuator and Configuration: interview-prep/02-spring/10-spring-actuator/concept.md
+
+          - Microservices:
+                - Category Overview: interview-prep/03-microservices/index.md
+                - Fundamentals: interview-prep/03-microservices/01-fundamentals/concept.md
+                - Service Communication: interview-prep/03-microservices/02-service-communication/concept.md
+                - API Gateway: interview-prep/03-microservices/03-api-gateway/concept.md
+                - Service Discovery: interview-prep/03-microservices/04-service-discovery/concept.md
+                - Config Server: interview-prep/03-microservices/05-config-server/concept.md
+                - Resilience4j: interview-prep/03-microservices/06-resilience4j/concept.md
+                - Saga Pattern: interview-prep/03-microservices/07-saga-pattern/concept.md
+                - Distributed Transactions: interview-prep/03-microservices/08-distributed-transactions/concept.md
+                - Kafka: interview-prep/03-microservices/09-kafka-messaging/concept.md
+                - Outbox and CQRS: interview-prep/03-microservices/10-outbox-cqrs/concept.md
+                - Observability: interview-prep/03-microservices/11-observability/concept.md
+                - Idempotency and Rate Limiting: interview-prep/03-microservices/12-idempotency-ratelimiting/concept.md
+
+          - Database and SQL:
+                - Category Overview: interview-prep/04-database/index.md
+                - SQL Fundamentals: interview-prep/04-database/01-sql-fundamentals/concept.md
+                - Indexing and Query Optimization: interview-prep/04-database/02-indexing-query-optimization/concept.md
+                - Transactions and ACID: interview-prep/04-database/03-transactions-acid/concept.md
+                - Normalization: interview-prep/04-database/04-normalization/concept.md
+                - NoSQL and Redis: interview-prep/04-database/05-nosql-redis/concept.md
+                - Connection Pooling and Migrations: interview-prep/04-database/06-connection-pooling/concept.md
+
+          - System Design:
+                - Category Overview: interview-prep/05-system-design/index.md
+                - Fundamentals: interview-prep/05-system-design/01-fundamentals/concept.md
+                - Load Balancing and Caching: interview-prep/05-system-design/02-load-balancing-caching/concept.md
+                - Scalability and Availability: interview-prep/05-system-design/03-scalability-availability/concept.md
+                - Message Queues: interview-prep/05-system-design/04-message-queues/concept.md
+                - URL Shortener: interview-prep/05-system-design/05-url-shortener/concept.md
+                - Rate Limiter: interview-prep/05-system-design/06-rate-limiter/concept.md
+                - E-commerce and Payment: interview-prep/05-system-design/07-ecommerce-payment/concept.md
+                - Low-Level Design: interview-prep/05-system-design/08-low-level-design/concept.md
+
+          - Coding Problems:
+                - Category Overview: interview-prep/06-coding-problems/index.md
+                - Arrays and Strings: interview-prep/06-coding-problems/01-arrays-strings/concept.md
+                - HashMap and Set: interview-prep/06-coding-problems/02-hashmap-set/concept.md
+                - Linked List: interview-prep/06-coding-problems/03-linked-list/concept.md
+                - Stack and Queue: interview-prep/06-coding-problems/04-stack-queue/concept.md
+                - Trees and Graphs: interview-prep/06-coding-problems/05-trees-graphs/concept.md
+                - Java Streams: interview-prep/06-coding-problems/06-java-stream-coding/concept.md
+
+          - Project-Based Questions:
+                - Category Overview: interview-prep/07-project-based/index.md
+                - Project Explanation: interview-prep/07-project-based/01-project-explanation/concept.md
+                - REST API Design: interview-prep/07-project-based/02-rest-api-design/concept.md
+                - Performance Debugging: interview-prep/07-project-based/03-performance-debugging/concept.md
+                - Code Quality and Testing: interview-prep/07-project-based/04-code-quality-testing/concept.md
+                - Behavioral Questions: interview-prep/07-project-based/05-behavioral/concept.md
 
 theme:
-  name: material
-  language: en
-  logo: assets/spring-icon.svg
-  favicon: assets/spring-icon.svg
-  features:
-    - announce.dismiss
-    - navigation.instant
-    - navigation.instant.progress
-    - navigation.tabs
-    - navigation.sections
-    - navigation.expand
-    - navigation.top
-    - navigation.footer
-    - search.suggest
-    - search.highlight
-    - search.share
-    - content.code.copy
-    - content.code.annotate
-    - content.action.edit
-    - content.action.view
-    - toc.follow
-  palette:
-    - scheme: default
-      primary: indigo
-      accent: deep orange
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-    - scheme: slate
-      primary: blue
-      accent: amber
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
-  font:
-    text: Inter
-    code: JetBrains Mono
-  icon:
-    repo: fontawesome/brands/github
+    name: material
+    language: en
+    logo: assets/spring-icon.svg
+    favicon: assets/spring-icon.svg
+    features:
+        - announce.dismiss
+        - navigation.instant
+        - navigation.instant.progress
+        - navigation.tabs
+        - navigation.sections
+        - navigation.expand
+        - navigation.top
+        - navigation.footer
+        - search.suggest
+        - search.highlight
+        - search.share
+        - content.code.copy
+        - content.code.annotate
+        - content.action.edit
+        - content.action.view
+        - toc.follow
+    palette:
+        - scheme: default
+          primary: indigo
+          accent: deep orange
+          toggle:
+              icon: material/weather-night
+              name: Switch to dark mode
+        - scheme: slate
+          primary: blue
+          accent: amber
+          toggle:
+              icon: material/weather-sunny
+              name: Switch to light mode
+    font:
+        text: Inter
+        code: JetBrains Mono
+    icon:
+        repo: fontawesome/brands/github
 
 plugins:
-  - search:
-      lang: en
-  - tags
+    - search:
+          lang: en
+    - tags
 
 markdown_extensions:
-  - admonition
-  - attr_list
-  - def_list
-  - footnotes
-  - md_in_html
-  - tables
-  - toc:
-      permalink: true
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.keys
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.tasklist:
-      custom_checkbox: true
+    - admonition
+    - attr_list
+    - def_list
+    - footnotes
+    - md_in_html
+    - tables
+    - toc:
+          permalink: true
+    - pymdownx.details
+    - pymdownx.emoji:
+          emoji_index: !!python/name:material.extensions.emoji.twemoji
+          emoji_generator: !!python/name:material.extensions.emoji.to_svg
+    - pymdownx.highlight:
+          anchor_linenums: true
+          line_spans: __span
+          pygments_lang_class: true
+    - pymdownx.inlinehilite
+    - pymdownx.keys
+    - pymdownx.superfences
+    - pymdownx.tabbed:
+          alternate_style: true
+    - pymdownx.tasklist:
+          custom_checkbox: true
 
 extra_css:
-  - stylesheets/extra.css
+    - stylesheets/extra.css
+
 extra_javascript:
-  - javascripts/extra.js
+    - javascripts/extra.js
 
 extra:
-  generator: false
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/praveen-kushwaha1/springboot-practical-learning
-      name: GitHub repository
+    generator: false
+    social:
+        - icon: fontawesome/brands/github
+          link: https://github.com/praveen-kushwaha1/springboot-practical-learning
+          name: GitHub repository
 
 copyright: Copyright &copy; 2026 Spring Boot Practical Learning
