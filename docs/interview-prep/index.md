@@ -12,14 +12,15 @@ Topic-wise preparation for Java Backend Developer interviews.
 
 ## Categories
 
-| Category | Topic areas |
-|---|---:|
-| [Java](./01-java/index.md) | 8 |
-| [Spring Framework and Spring Boot](./02-spring/index.md) | 10 |
-| [Microservices](./03-microservices/index.md) | 12 |
-| [Database and SQL](./04-database/index.md) | 6 |
-| [System Design](./05-system-design/index.md) | 8 |
-| [Coding Problems](./06-coding-problems/index.md) | 6 |
+| Category                                                              | Topic areas |
+|-----------------------------------------------------------------------|---:|
+| [Java](00-java/index.md)                                              | 8 |
+| [Hibernate](./01-hibernate/index.md)                                     | 10 |
+| [Spring Framework and Spring Boot](./02-spring/index.md)              | 10 |
+| [Microservices](./03-microservices/index.md)                          | 12 |
+| [Database and SQL](./04-database/index.md)                            | 6 |
+| [System Design](./05-system-design/index.md)                          | 8 |
+| [Coding Problems](./06-coding-problems/index.md)                      | 6 |
 | [Project-Based and Experience Questions](./07-project-based/index.md) | 5 |
 
 **Total: 7 categories and 55 topic areas.** Each topic contains `concept.md`, `question.md` and `answer.md`.
